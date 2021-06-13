@@ -1,0 +1,61 @@
+body {
+    background-color: #f8f8f8
+}
+
+.menu a {
+    color: black;
+    font: bold 17px Arial, Verdana;
+}
+
+.menu li {
+    list-style-type: none;
+}
+
+.titles_in_the_catalog_product {
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #eaeaea;
+}
+
+.brief_description {
+    color: #707070;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px
+}
+
+.detailed_description {
+    color: #484343;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+
+}
+
+.characteristics_of_goods {
+    color: #284547;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: left;
+    list-style-type: decimal-leading-zero
+}
+
+input {
+    width: 210px;
+    height: 20px;
+}
+
+input[type=text] {
+    color: black;
+    font-size: 15px;
+}
+
+.frame_around {
+    outline: 2px solid #000
+}
+
+.menu li a:hover {
+    color: lawngreen
+}
+

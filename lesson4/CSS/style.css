@@ -1,0 +1,106 @@
+body {
+    background-color: #f8f8f8
+}
+
+.menu a {
+    color: black;
+    font: bold 17px Arial, Verdana;
+}
+
+.menu li {
+    list-style-type: none;
+}
+
+.titles_in_the_catalog_product {
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #eaeaea;
+}
+
+.brief_description {
+    color: #707070;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px
+}
+
+.detailed_description {
+    color: #484343;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.characteristics_of_goods {
+    color: #284547;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: left;
+    list-style-type: none
+}
+
+input {
+    width: 210px;
+    height: 20px;
+}
+
+input[type=text] {
+    color: black;
+    font-size: 15px;
+}
+
+.frame_around {
+    outline: 2px solid #000
+}
+
+.menu li a:hover {
+    color: red
+}
+
+.menu li a:active {
+    color: green
+}
+
+.e-mail:focus {
+    color: brown;
+    background-color: lightgreen;
+}
+
+.contacts_list li {
+    list-style-type: none
+}
+
+form ul li input {
+    text-transform: capitalize;
+}
+
+.brief_description::first-letter {
+    font-size: 20px;
+    color: cyan
+}
+
+.frame_around:hover {
+    outline: none
+}
+
+.table_4x5 {
+    border: 2px solid #000;
+    width: 400px;
+    height: 200px;
+    border-collapse: collapse
+}
+
+.table_4x5 td {
+    border: 2px solid #000;
+}
+
+.table_technical_parameters {
+    border: 1px solid #000;
+    width: 500px;
+    height: 200px;
+    border-collapse: collapse
+}
+
+.table_technical_parameters td {
+    border: 1px solid #000;
